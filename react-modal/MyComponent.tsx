@@ -2,6 +2,8 @@ import React from 'react'
 
 import Modal, { TModal } from '~Display/Modal/Modal'
 
+import './MyComponent.scss'
+
 const MyComponent: TMyComponentComponent = ({ payload, ...modalProps }) => {
 
     console.log({ payload })
